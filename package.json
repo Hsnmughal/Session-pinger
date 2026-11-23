@@ -1,0 +1,33 @@
+{
+	"name": "session-pinger",
+	"version": "0.1.0",
+	"description": "Command Code mod: push a notification to your phone when a long agent run finishes, so you can stop checking the laptop.",
+	"type": "module",
+	"license": "MIT",
+	"keywords": [
+		"cmd-mod",
+		"command-code",
+		"ntfy",
+		"notifications"
+	],
+	"commandcode": {
+		"mods": [
+			"./src/index.ts"
+		]
+	},
+	"scripts": {
+		"test": "node --test src/*.test.ts",
+		"check": "tsc -p tsconfig.json"
+	},
+	"engines": {
+		"node": ">=22"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Hsnmughal/Session-pinger.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Hsnmughal/Session-pinger/issues"
+	},
+	"homepage": "https://github.com/Hsnmughal/Session-pinger#readme"
+}
